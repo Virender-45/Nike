@@ -1,0 +1,636 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    padding: 20px;
+}
+
+.header-logo img {
+    height: 70px;
+
+}
+
+div#offcanvasWithBothOptions {
+    width: 16%;
+}
+
+.offcanvas-body {
+    text-align: center;
+}
+
+.offcanvas-body p {
+    color: #fff;
+}
+
+.offcanvas-body a {
+    text-decoration: none;
+}
+
+.offcanvas-body p:hover {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.sidebars img {
+    height: 60px;
+    width: 100%;
+}
+
+.off-canvas button {
+    border: 1px solid transparent;
+    background-color: #fcfcfc;
+}
+
+.carousel-inner .row {
+    overflow: scroll;
+    overflow-y: hidden;
+}
+
+.carousel-outer {
+    height: 675px;
+    background-color: #f6f4f5;
+    ;
+}
+
+.carousel-section {
+    background-image: linear-gradient(#9f4a3f, #634d55);
+}
+
+.content {
+    width: 52%;
+    padding-top: 100px;
+    margin-left: 40px;
+    padding-left: 40px;
+}
+
+.content-logo img {
+    width: 43%;
+}
+
+.content-heading h1 {
+    margin-top: 33px;
+    font-size: 4.5rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.content-text p {
+    margin-top: 32px;
+    color: #fff;
+    font-size: 1.25rem;
+}
+
+.content-button button {
+    margin-top: 33px;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid transparent;
+    margin-bottom: 100px;
+}
+
+.carousel-indicators {
+    top: 660px;
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000000;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
+.carousel-section-2 {
+    background: #f6f4f5;
+}
+
+.content-info {
+    margin-left: 30px;
+    padding-left: 30px;
+    margin-top: 45px;
+    padding-top: 45px;
+}
+
+.content-info h6 {
+    text-transform: uppercase;
+}
+
+.content-info h4 {
+    font-size: 1.25rem;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.content-info p {
+    font-size: 1.125rem;
+    margin-top: 20px;
+}
+
+.content-info img {
+    position: absolute;
+    bottom: 0;
+    right: 110px;
+}
+
+.image-1 img {
+    position: absolute;
+    top: 40px;
+    left: 700px;
+    width: 22%;
+}
+
+.image-2 img {
+    position: absolute;
+    top: 40px;
+    left: 680px;
+    width: 24%;
+}
+
+
+.women-tank {
+    background-color: #f6f4f5;
+    padding-top: 60px;
+    display: flex;
+    height: 800px;
+}
+
+.layout-1 {
+    width: 39%;
+}
+
+
+
+
+
+
+/* .layout-1 {
+    width: 39%;
+
+    position: relative;
+    animation-name: ani1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes ani1 {
+    0% {
+        left: -500px;
+        top: 0px;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+} */
+
+
+.layout-1-image {
+    background: url(images/nike-white.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.layout-1 h6 {
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.layout-1 h2 {
+    font-size: 2rem;
+    position: relative;
+    font-weight: bold;
+}
+
+.rectangle-1 {
+    height: 21px;
+    background-color: #e27162;
+    width: 70%;
+    position: relative;
+    top: 41px;
+}
+
+.layout-1 p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-top: 90px;
+}
+
+.layout-1-image li {
+    color: #808080 !important
+}
+
+.shop-1 {
+
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+
+.shop-1 button {
+    padding: 0;
+    background-color: #f6f4f5;
+    border: 1px solid transparent;
+    border-bottom: 2px solid #e27162;
+}
+
+.layout-2 {
+    width: 61%;
+}
+
+.layout-2 img {
+    border-radius: 50%;
+    margin-top: 45px;
+    margin-left: 62px;
+    width: 80%;
+}
+
+.rounded-logo-1 {
+    height: 241px;
+    width: 241px;
+    border-radius: 50%;
+    background-image: linear-gradient(125deg, #634d55, #9b2b35);
+    position: absolute;
+    top: 849px;
+    right: 142px;
+}
+
+.image-logo img {
+    border-radius: 0;
+    margin-left: 28px;
+    margin-top: 90px;
+}
+
+.new-releases {
+    background-color: #33292c;
+    height: 800px;
+}
+
+.layout-3-images {
+    display: flex;
+}
+
+.img-1 {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+}
+
+.img-2 {
+    height: 62px;
+    width: 175px;
+    position: relative;
+    right: 13px;
+    top: 55px;
+}
+
+.rounded-logo-2 {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    background-image: linear-gradient(125deg, #d53d29, #3d2c32);
+    position: relative;
+    bottom: 225px;
+    left: 310px;
+}
+
+.img-3 {
+    width: 68%;
+    margin-top: 27px;
+    margin-left: 54px;
+}
+
+.rectangle-2 {
+    background-color: #d53d29;
+    width: 257px;
+    height: 29px;
+    position: relative;
+    top: 111px;
+}
+
+.layout-4 {
+    padding-top: 100px;
+    margin-top: 100px;
+    padding-left: 93px;
+}
+
+.layout-4 h6 {
+    color: #fff;
+    padding-top: 30px;
+    font-weight: 400px;
+}
+
+.layout-4 h2 {
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 2.25rem;
+    position: relative;
+}
+
+.layout-4 p {
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.layout-4 li {
+    color: #fff;
+}
+
+.shop-2 {
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+
+.shop-2 button {
+    padding: 0;
+    background-color: #33292c;
+    color: #fff;
+    border: 1px solid transparent;
+    border-bottom: 2px solid #fff;
+}
+
+.women-shoe {
+    background-color: #f6f4f5;
+}
+
+.layout-5-image {
+    background: url(images/nike-white.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 310px;
+}
+
+.layout-5 h6 {
+    padding-top: 35px;
+    margin-top: 35px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.layout-5 h2 {
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 2.25rem;
+    position: relative;
+}
+
+.layout-5 p {
+    font-weight: 400;
+    line-height: 1.6;
+    margin-top: 36px;
+    padding-top: 36px;
+    font-size: 1rem;
+}
+
+.layout-5 li {
+    color: #808080;
+}
+
+.rectangle-3 {
+    background-color: #a7d89e;
+    width: 370px;
+    height: 25px;
+    position: relative;
+    top: 150px;
+}
+
+.shop-3 button {
+    padding: 0;
+    background-color: #f6f4f5;
+    border: 1px solid transparent;
+    border-bottom: 2px solid #e27162;
+}
+
+.rounded-logo-3 {
+    width: 516px;
+    height: 515px;
+    border-radius: 50%;
+    background-image: linear-gradient(#634d55, #d53d29);
+    margin-left: 80px;
+}
+
+.img-4 {
+    width: 550px;
+    height: 358px;
+    position: relative;
+    left: 35px;
+    top: 65px;
+}
+
+.trending {
+    background-color: #33292c;
+    color: #fff;
+}
+
+.img-5 {
+    border-radius: 50%;
+    height: 542px;
+    width: 542px;
+}
+
+.layout-8 {
+    padding-left: 56px;
+}
+
+.layout-8 h6 {
+    line-height: 1.2;
+    margin-top: 22px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.layout-8 h2 {
+    position: relative;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 2.25rem;
+}
+
+.layout-8 p {
+    margin-top: 70px;
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+.layout-8 li {
+    color: #e0d5d9 !important;
+}
+
+.shop-4 button {
+    color: #fff;
+    padding: 0;
+    background-color: #33292c;
+    border: 1px solid transparent;
+    border-bottom: 2px solid #fff;
+    margin-top: 20px;
+}
+
+.img-6 {
+    width: 97px;
+}
+
+.rectangle-4 {
+    width: 415px;
+    height: 28px;
+    background-color: #d53d29;
+    position: relative;
+    top: 138px;
+}
+
+
+.final-design {
+    background-color: #f6f4f5;
+}
+
+.final-design-text {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.final-design-text h2 {
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.2;
+    font-size: 2.25rem;
+}
+
+.final-design-text p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.6;
+    padding: 25px 55px 0px 55px;
+    margin: 0px;
+    padding-bottom: 80px;
+}
+
+.layout-9 {
+    background-image: linear-gradient(#9f4a3f, #634d55);
+    padding-bottom: 50px;
+}
+
+.layout-9 h2 {
+    text-align: center;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.2;
+    font-size: 2.25rem;
+    margin-top: 30px;
+    color: #fff;
+}
+
+.boxes {
+    display: flex;
+    display: flex;
+    margin-top: 80px;
+    text-align: left;
+}
+
+.boxes img {
+    width: 50px;
+}
+
+.boxes h5 {
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 1.25rem;
+    padding-right: 72px;
+    text-align: left;
+}
+
+.boxes p {
+    color: #fbe9e7 !important;
+    margin-top: 10px;
+    padding-right: 69px;
+}
+
+.box-1 {
+    width: 25%;
+}
+
+.box-2 {
+    width: 25%;
+}
+
+.box-3 {
+    width: 25%;
+}
+
+.box-4 {
+    width: 25%;
+}
+
+.footer {
+    color: #fff;
+    background-color: #3d2c32;
+}
+
+.headlines {
+    display: flex;
+}
+
+.headline-1 {
+    width: 33%;
+}
+
+.headline-2 {
+    width: 33%;
+}
+
+.headline-3 {
+    width: 33%;
+}
+
+.horizontal-line {
+    border: 1px solid #fff;
+    border-right-width: 0px;
+    border-left-width: 0;
+    border-bottom-width: 0px;
+}
+
+.horizontal-line p {
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.6;
+    font-size: 0.875rem;
+    margin-top: 15px;
+    padding-top: 15px;
+}
+
+.last {
+    background-color: #333333;
+    text-align: center;
+    color: #fff;
+}
+
+.last-line a {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 6px;
+}
+
+.last-line a:hover {
+    text-decoration: none;
+}
